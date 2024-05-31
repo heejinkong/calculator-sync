@@ -1,0 +1,18 @@
+[
+    { 
+        "id":1, "name":"이찬혁", "role": "작사,작곡", 
+        "photo":"https://search.pstatic.net/common?type=b&size=144&expire=1&refresh=true&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F4d91c1fb-bbec-4fcc-8282-67450b914e79.jpg", 
+        "desc":"작곡가,기타연주,작사,보컬", 
+        "insta" : "https://www.instagram.com/leechanhyuk/", 
+        "facebook":"",
+        "youtube":"https://www.youtube.com/@Leechanhyukvideo"
+    },
+    { 
+        "id":2, "name":"이수현", "role": "보컬", 
+        "photo":"https://search.pstatic.net/common?type=b&size=144&expire=1&refresh=true&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F2c146b0d-5bea-4731-90ae-7df245a4c584.jpg",
+        "desc":"보컬", 
+        "insta" : "https://www.instagram.com/akmu_suhyun/", 
+        "facebook":"",
+        "youtube": "https://www.youtube.com/@Leesuhyun" 
+    }
+]

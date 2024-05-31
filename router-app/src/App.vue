@@ -15,11 +15,19 @@
 <script>
 import Header from '@/components/Header.vue'
 import Loading from '@/components/Loading.vue'
+import { provide } from 'vue';
 
 export default {
   name : "App",
   components : { Header, Loading },
-
+  setup() {
+    provide('videos', [
+      { "id":"fx227oTnnPc", "title":"Love Lee", "category":"official" },
+      { "id":"ZlDDiHK4tQM", "title":"후라이의 꿈", "category":"official" },
+      { "id":"ZuyNe3AmlSk", "title":" I love you (All about my romance(내 연애의 모든 것) OST Part 3)", "category":"official" },
+      { "id":"x2XX3cNW4K0", "title":"Give Love", "category":"official" }
+    ])
+  }
 }
 </script>
 <style>
