@@ -1,6 +1,6 @@
 <template>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark mt-2">
-        <span class="navbar-brand">이날치(LeeNalChi)</span>
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <span class="navbar-brand" style="margin-left: 582px; font-size: 30px;">악동뮤지션</span>
         <button class="navbar-toggler" type="button" @click="changeIsNavShow">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -42,3 +42,10 @@ export default {
     }
 }
 </script>
+
+<style>
+.nav-item{
+    font-size: medium;
+    font-weight: bold;
+}
+</style>
